@@ -6,9 +6,9 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
 
 ## For what?
  in aws EC2, ['t2'](https://aws.amazon.com/ec2/instance-types/t2/) type is fantastic because most cheapest & burst [POWER!!!](https://media.licdn.com/mpr/mpr/p/8/005/071/1ad/3bbdcc4.jpg) <br />
- and, [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is great for manage,deploy,scaling application. <br />
+ and, [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is great for manage(deploy,scaling,..) application. <br />
  I was trying to combine both, but one challenge - **for autoscaling, what metric should I use?** <br />
- 't2' use cpu by 'credit', and limited by that. so we can't use autoscaling by cpu usage. <br />
+ 't2' use cpu power by 'credit', and limited by that. so we can't use autoscaling by cpu usage. <br />
  aws people's suggestion was 'latency' - but prevention is better than cure. <br />
  So I made this - **scaling by cpu credit Balance - amount of cpu credit available**
 
