@@ -4,7 +4,7 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
 ##### functional/running test passed. but before use, Test it please
 ##### give me any report/suggestion, Welcome!
 
-## For what?
+## Why?
  in aws EC2, ['t2'](https://aws.amazon.com/ec2/instance-types/t2/) type is fantastic because most cheapest & burst [POWER!!!](https://media.licdn.com/mpr/mpr/p/8/005/071/1ad/3bbdcc4.jpg) <br />
  and, [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is great for manage(deploy,scaling,..) application. <br />
  I was trying to combine both, but one challenge - **for autoscaling, what metric should I use?** <br />
