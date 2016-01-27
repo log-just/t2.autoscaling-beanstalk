@@ -38,8 +38,8 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
             {
             nameApp : 'My First Elastic Beanstalk Application', // application name
             nameEnv : 'myFirstElasticBeans-env',                // environment name
-            creditThreshold_upper : 40,     // credit is more than value, do scale in
-            creditThreshold_lower : 20,     // credit is less than value, do scale out
+            creditThreshold_upper : 40,     // credit is more than this, do scale in
+            creditThreshold_lower : 20,     // credit is less than this, do scale out
             scale_inc : 2,                  // scale out amount
             scale_dec : 1,                  // scale in amount
             scale_max : 5,                  // maximum scale
