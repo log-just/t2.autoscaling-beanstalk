@@ -1,4 +1,4 @@
-# t2.autoscale - beanstalk
+# t2.autoscaling - beanstalk
 t2 type autoscaling by cpuCredit @ aws elastic beanstalk
 
 ##### functional/running test passed. but before use, Test it please
