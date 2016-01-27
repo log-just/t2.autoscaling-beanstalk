@@ -1,5 +1,5 @@
 # t2.autoscaling - beanstalk
-t2 type autoscaling by cpuCredit @ aws elastic beanstalk
+t2 type auto scaling by cpuCredit @ aws elastic beanstalk
 
 ##### functional/running test passed. but before use, Test it please
 ##### give me any report/suggestion, Welcome!
@@ -7,13 +7,13 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
 ## Why?
  in aws EC2, ['t2'](https://aws.amazon.com/ec2/instance-types/t2/) type is fantastic because of the most cheapest & burst [POWER!!!](https://media.licdn.com/mpr/mpr/p/8/005/071/1ad/3bbdcc4.jpg) <br />
  and, [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is great for manage(deploy,scaling,..) application. <br />
- I was trying to combine both, but one challenge - **for autoscaling, what metric should I use?** <br />
- 't2' use cpu power by 'credit', and limited by that. so we can't use autoscaling by cpu usage. <br />
+ I was trying to combine both, but one challenge - **for auto scaling, what metric should I use?** <br />
+ 't2' use cpu power by 'credit', and limited by that. so we can't use auto scaling by cpu usage. <br />
  aws people's suggestion was 'latency' - but prevention is better than cure. <br />
- So I made this - **autoscaling by cpu credit - amount of cpu credit available**
+ So I made this - **auto scaling by cpu credit - amount of cpu credit available**
 
 ## Feature
-* autoscale your Elastic Beanstalk Environment by cpu credit (average of each EC2's cpu credit)
+* auto scale your Elastic Beanstalk Environment by cpu credit (average of each EC2's cpu credit)
 * control multiple environment's scaling option
 * run by lambda function (with scheduled event)
 * (optional) put cloudwatch custom metric - current cpu credit(average), current EC2 scale
@@ -24,7 +24,7 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
 * **config.js** - capacity scaling rule configuration
 
 ## How to use
-1. `$ git clone https://github.com/rockeee/t2.autoscale-beanstalk.git` or download zip
+1. `$ git clone https://github.com/rockeee/t2.autoscaling-beanstalk.git` or download zip
 2. `$ npm install` to download npm modules
 3. modify `config.js` for your configuration.
   * 1 credit provides the performance of a full cpu power for one minute
