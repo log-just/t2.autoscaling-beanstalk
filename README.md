@@ -98,6 +98,7 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
       ]
 }
 ```
+6. if you config to put cloudwatch data,<br />you can see `Beanstalk_t2_autoscaling` custom metrics @cloudwatch console.
 
 ## Roadmap
 * add SNS noti when scaled/failed
