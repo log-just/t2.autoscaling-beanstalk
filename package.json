@@ -1,0 +1,30 @@
+{
+  "name": "t2.autoscale-beanstalk",
+  "version": "0.1.0",
+  "description": "t2 autoscaling by cpuCredit @aws elastic beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rockeee <cuhaha1203@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.30"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "t2",
+    "autoscaling",
+    "autoscale",
+    "beanstalk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockeee/t2.autoscale-beanstalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rockeee/t2.autoscale-beanstalk/issues"
+  },
+  "homepage": "https://github.com/rockeee/t2.autoscale-beanstalk"
+}
