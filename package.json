@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rockeee/t2.autoscale-beanstalk.git"
+    "url": "https://github.com/rockeee/t2.autoscaling-beanstalk.git"
   },
   "bugs": {
-    "url": "https://github.com/rockeee/t2.autoscale-beanstalk/issues"
+    "url": "https://github.com/rockeee/t2.autoscaling-beanstalk/issues"
   },
-  "homepage": "https://github.com/rockeee/t2.autoscale-beanstalk"
+  "homepage": "https://github.com/rockeee/t2.autoscaling-beanstalk"
 }
