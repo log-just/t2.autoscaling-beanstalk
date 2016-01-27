@@ -43,7 +43,7 @@ t2 type auto scaling by cpuCredit @ aws elastic beanstalk
              scale_dec : 1,                  // scale in amount
              scale_max : 5,                  // maximum scale
              scale_min : 1,                  // minimum scale
-             putCloudwatch : true            // if you want to see credit/scale info, set ture
+             putCloudwatch : true            // if you want to see credit/scale info, set true
             }
             // additional enviroemnt...
         ]
