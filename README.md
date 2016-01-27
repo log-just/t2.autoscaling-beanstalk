@@ -10,11 +10,10 @@ t2 type autoscaling by cpuCredit @ aws elastic beanstalk
  I was trying to combine both, but one challenge - **for autoscaling, what metric should I use?** <br />
  't2' use cpu power by 'credit', and limited by that. so we can't use autoscaling by cpu usage. <br />
  aws people's suggestion was 'latency' - but prevention is better than cure. <br />
- So I made this - **scaling by cpu credit Balance - amount of cpu credit available**
+ So I made this - **autoscaling by cpu credit - amount of cpu credit available**
 
 ## Feature
-* autoscale your Elastic Beanstalk Environment by cpu credit balance
-  * average of each EC2's cpu credit balance
+* autoscale your Elastic Beanstalk Environment by cpu credit (average of each EC2's cpu credit)
 * control multiple environment's scaling option
 * run by lambda function (with scheduled event)
 * (optional) put cloudwatch custom metric - current cpu credit(average), current EC2 scale
