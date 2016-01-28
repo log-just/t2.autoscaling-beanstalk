@@ -21,7 +21,7 @@ t2 type auto scaling by cpuCredit @ aws elastic beanstalk
 ## File Structure
 * **index.js** - main handler & flow source. using [async](https://github.com/caolan/async)
 * **tasks.js** - Detail work sources. using AWS SDK
-* **config.js** - capacity scaling rule configuration
+* **config.js** - scaling rule configuration
 
 ## How to use
 1. `$ git clone https://github.com/rockeee/t2.autoscaling-beanstalk.git` or download zip
