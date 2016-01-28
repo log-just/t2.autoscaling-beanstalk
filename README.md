@@ -27,7 +27,7 @@ t2 type auto scaling by cpuCredit @ aws elastic beanstalk
 1. `$ git clone https://github.com/rockeee/t2.autoscaling-beanstalk.git` or download zip
 2. `$ npm install` to download npm modules
 3. modify `config.js` for your configuration.
-  * 1 credit provides the performance of a full cpu power for one minute
+  * 1 credit provides the performance of full cpu power for 1 minute
   * Initial credit is 30(~small) or 60(medium~). for stable scaling, set `creditThreshold_lower` to lower than that.
    ```js
   module.exports = {
