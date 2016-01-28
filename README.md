@@ -14,7 +14,7 @@ t2 type auto scaling by cpuCredit @ aws elastic beanstalk
 
 ## Feature
 * auto scale your Elastic Beanstalk Environment by cpu credit (average of each EC2's cpu credit)
-* control multiple environment's scaling option
+* config multiple environment's scaling option
 * run by lambda function (with scheduled event)
 * (optional) put cloudwatch custom metric - current cpu credit(average), current EC2 scale
 
